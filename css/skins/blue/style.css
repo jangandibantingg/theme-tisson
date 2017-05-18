@@ -1,0 +1,330 @@
+
+/********************** Backgrounds **********************/
+	
+	.the_content, .content-padding {
+		background: #fff;
+	}
+	
+	.Latest_posts {
+		background: #fff;
+	}
+	
+	.testimonial {
+		background: #DFE3E5;
+	}
+
+	#Footer {
+		background-color: #2c3e50;			
+	}
+	
+
+/********************* Colors *********************/
+
+/* Content font */
+	body {
+		color: #717e8c;
+	}
+	
+/* Links color */
+	a {
+		color: #2c3e50;
+	}
+	
+	a:hover {
+		color: #192938;
+	}
+	
+/* Grey notes */
+	.Latest_posts ul li .desc p, .Recent_comments ul li p.author, .wp-caption .wp-caption-text, .post .meta span.sep, .post .meta,
+	.post .footer p.tags a, .Twitter ul li > a {
+		color: #98a7a8;
+	}
+	
+/* Strong */
+	.Twitter ul li span, .widget_calendar caption, blockquote .author h6,
+	.single-portfolio .sp-inside .sp-inside-left dd i {
+		color: #00AB98;
+	}
+	
+/* Borders */
+	.offer-page .offer-right, code, pre, .post, .post .meta, #comments .commentlist > li, #comments .commentlist > li .photo, 
+	#comments .commentlist li .comment-body, .widget_calendar td, .widget_calendar th, .single-portfolio .sp-inside .sp-inside-left {
+		border-color: #dfe3e5;
+	}
+
+/* Buttons */
+	a.button, input[type="submit"], input[type="reset"], input[type="button"] {
+		background-color: #06D0B9;
+		color: #fff;
+	}
+	
+	a:hover.button, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+		background-color: #06D0B9;
+		color: #fff;
+	}
+	
+/* Headings font */
+	h1, h1 a, h1 a:hover { color: #2c3e50; }
+	h2, h2 a, h2 a:hover { color: #2c3e50; }
+	h3, h3 a, h3 a:hover { color: #2c3e50; }
+	h4, h4 a, h4 a:hover { color: #2c3e50; }
+	h5, h5 a, h5 a:hover { color: #2c3e50; }
+	h6, h6 a, h6 a:hover { color: #2c3e50; }
+	
+/* Header */
+
+	#Header .sixteen, #Header #menu ul {
+		background: #2c3e50;
+	}
+	
+	#Header #logo {
+		background: #fff;
+	}
+	
+	#Top_bar .phone i {
+		color: #bac4c5;
+	}
+
+	#Top_bar .phone a {
+		color: #34495e;
+	}
+	
+	#Top_bar .social li a {
+		background: #bac4c5;
+		color: #dfe3e5 !important;
+	}
+	
+	#Top_bar .social li a:hover {
+		background: #06D0B9;
+		color: #fff !important;
+	}
+	
+/* Subheader */
+	#Subheader .sixteen .title {
+		background: #fff;
+		color: #2c3e50;
+	}
+	
+/* Breadcrumbs */
+	ul.breadcrumbs li, ul.breadcrumbs li a {
+		color: #99AEB0;
+	}
+	
+/* Menu */
+	#Header #menu > ul > li > a {
+		color: #fff;
+	}
+
+	#Header #menu > ul > li.current-menu-item > a,
+	#Header #menu > ul > li.current_page_item > a,
+	#Header #menu > ul > li.current-menu-ancestor > a,
+	#Header #menu > ul > li.current_page_ancestor > a {
+		background: #06D0B9;
+		color: #fff;		
+	}
+	
+	#Header #menu > ul > li > a:hover,
+	#Header #menu > ul > li.hover > a {
+		background: #06D0B9 !important;
+		color: #fff;
+	}
+
+	#Header #menu > ul > li ul {
+		background: #06D0B9;
+	}
+		
+	#Header #menu > ul > li ul li a {
+		color: #fff;
+		border-color: #0bead0;
+	}
+	
+	#Header #menu > ul > li ul li a:hover, 
+	#Header #menu > ul > li ul li.hover > a {
+		background: #05c7b1 !important;
+		color: #fff !important;
+	}
+
+/* Info Box */	
+	.info_box { 
+		background: #06D0B9;
+		color: #fff;
+	}
+	.info_box h4 {
+		color: #fff;
+	}
+	
+/* Captions mask */
+	.wp-caption .mask, .da-thumbs li a div,
+	.gallery .gallery-item {
+		background-color: rgba(32, 132, 198, 0.8);
+	}
+
+/* Portfolio */
+	.da-thumbs li a div {
+		background-color: rgba(32, 132, 198, 0.8);
+	}
+	.Projects_header .categories ul li a:hover, .Projects_header .categories ul li.current-cat a {
+		background: #06D0B9;
+	}
+	
+/* Get in touch */
+	.get_in_touch {
+		background: #DFE3E5;
+	}
+	
+/* Recent works */
+	.recent_works {
+		background: #2c3e50;
+	}
+	.recent_works .header h3 {
+		color: #fff;
+	}
+	.recent_works .desc {
+		color: #06D0B9;
+	}
+	
+/* Call to action */
+	.call_to_action .inner-padding {
+		background-color: rgba(32, 132, 198, 0.85);
+	}
+	.call_to_action h4 {
+		color: #fff;
+	} 
+	.call_to_action h4 span {
+		color: #BAEFF8;
+	}
+	
+/* Team */
+	.team h4 {
+		color: #00AB98;
+	}
+	
+/* Our clients slider */
+	.Our_clients_slider {
+		background: #c9d0d2;
+	}
+	
+/* Faq & Accordion & Tabs */
+	.accordion .question h5,.faq .question h5 {
+		background: #06D0B9;
+		color: #fff;
+	}
+	.faq .active h5, .accordion .active h5 {
+		background: #06D0B9;
+		color: #fff;
+	}
+	.accordion .answer, .faq .answer {
+		background: #03BFA9;
+		color: #fff;
+	}
+	
+	.ui-tabs .ui-tabs-nav li a {
+		background: #bac4c5;
+		color: #2c3e50;
+	}
+	.ui-tabs .ui-tabs-nav li.ui-state-active a {
+		background: #fff;
+		color: #06D0B9;
+	}
+	.ui-tabs .ui-tabs-panel {
+		background: #fff;
+		color: #717E8C;
+	}
+	
+/* Pricing box */
+	.pricing-box {
+		border-color: #06D0B9;
+		background: #577899;
+	}
+	
+	.pricing-box, .pricing-box h3,
+	.pricing-box .plan-header .price sup.period {
+		color: #fff;
+	}
+
+	.pricing-box .plan-header .price {
+		color: #06D0B9;
+	}
+	
+	.pricing-box-featured {
+		background: #24609b;
+	}
+	
+/* Pager */
+	.pager a.page {
+		color: #b5bfc0;
+	}
+	.pager a.active {
+		color: #06D0B9;
+	}
+
+/* Posts */
+	.post h3 a, .post .meta a {
+		color: #06D0B9;
+	}
+
+/* widget_archive  */
+	.widget_archive {
+		background: #06D0B9;
+	}
+	.widget_archive h3,
+	.widget_archive li a  {
+		color: #fff;
+	}
+	.widget_archive li a:hover {
+		color: #2C3E50;
+	}
+	
+/* widget_mfn_menu, widget_categories */
+	.widget_mfn_menu, .widget_categories {
+		background: #2c3e50;
+	}
+	.widget_mfn_menu h3, .widget_categories h3,
+	.widget_mfn_menu li a, .widget_categories li a {
+		color: #fff;
+	}
+	.widget_mfn_menu li a i.icon-angle-right, .widget_mfn_menu li.current_page_item a, .widget_mfn_menu li a:hover, .widget_categories li a:hover, .widget_categories li.current-cat a {
+		color: #06D0B9;
+	}
+
+/* Footer headers and text */
+	#Footer,
+	#Footer .Recent_posts ul li .desc p, #Footer .Recent_comments ul li p.author, #Footer .Twitter ul li > a  {
+		color: #dfe3e5;
+	}
+
+	#Footer a { 
+		color: #06D0B9;
+	}
+
+	#Footer a:hover { 
+		color: #00BCA7;
+	}
+	
+	#Footer h1, #Footer h1 a, #Footer h1 a:hover,
+	#Footer h2, #Footer h2 a, #Footer h2 a:hover,
+	#Footer h3, #Footer h3 a, #Footer h3 a:hover,
+	#Footer h4, #Footer h4 a, #Footer h4 a:hover,
+	#Footer h5, #Footer h5 a, #Footer h5 a:hover,
+	#Footer h6, #Footer h6 a, #Footer h6 a:hover,
+	#Footer .Twitter ul li span {
+		color: #fff;
+	}
+	
+	#Footer aside > h4 {
+		color: #06D0B9;
+	}
+	
+	#Footer .copyrights p {
+		color: #61727b;
+	}
+	
+	#Footer .social li a {
+		background: #61727b;
+		color: #2c3e50 !important;
+	}
+	
+	#Footer .social li a:hover {
+		background: #06D0B9;
+		color: #fff !important;
+	}

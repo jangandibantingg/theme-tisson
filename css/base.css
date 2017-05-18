@@ -1,0 +1,253 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+	body {
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+		overflow-x: hidden;
+ }
+
+/* #Typography
+================================================== */
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { margin-bottom: 0; }
+	h2 { margin-bottom: 15px; }
+	h3 { margin-bottom: 15px; }
+	h4 { margin-bottom: 15px; }
+	h5 { margin-bottom: 15px; }
+	h6 { margin-bottom: 15px; }
+	
+	h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
+
+	p { margin: 0 0 15px 0; }
+
+	em { font-style: italic; }
+	b, strong { font-weight: bold; }
+	small { font-size: 80%; }
+
+	hr { display: block; border: none; outline: none; height: 1px; width: 100%; margin-bottom: 15px; clear: both; background-color: #cbcbcb; color: #cbcbcb; }
+
+
+/* #Links
+================================================== */
+	a, a:visited, a:focus { text-decoration: none; outline: 0; }
+	a:hover { text-decoration: underline; }
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Images
+================================================== */
+
+	img.scale-with-grid,
+	.content img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	iframe {
+		max-width: 100%;
+	}
+
+
+/* #Buttons
+================================================== */
+
+	a.tp-button{
+		font-family: inherit !important;
+		height: auto !important;
+		line-height: inherit !important;
+		border-radius: 0px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		letter-spacing: 0 !important;
+	}
+	.tp-button:hover {
+		text-shadow: 1px 1px 1px #000 !important;
+		box-shadow: 0 0 0 !important;
+	}
+
+	a.button, a.tp-button {
+		display: inline-block;
+		padding: 12px 15px;
+		font-size: 13px;
+		line-height: 13px;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		background-image: url(../images/bg_button.png);
+		background-repeat: repeat-x;
+		background-position: left top;
+		-webkit-box-shadow: 0 0 0 0 !important;
+		box-shadow: 0 0 0 0 !important;
+		-moz-box-shadow: 0 0 0 0 !important;
+		font-weight: normal;
+		text-shadow: 0 0 0 !important;
+		letter-spacing: 0 !important;
+	}
+	
+	a.button, a.tp-button span {
+		margin-left: 10px;
+	}
+
+	a.button_small {
+		font-size: 13px;
+		padding: 8px 23px;
+	}
+	
+	a.button_large {
+		font-size: 16px;
+		padding: 13px 30px;
+	}
+	
+	a:hover.button, a:hover.tp-button {
+		background-position: left top;
+		text-decoration: none;
+		-webkit-box-shadow: 0 0 0 0 !important;
+		box-shadow: 0 0 0 0 !important;
+		-moz-box-shadow: 0 0 0 0 !important;
+		text-shadow: 0 0 0 !important;
+	}
+	
+	#comments .commentlist > li .reply a.comment-reply-link {
+		-webkit-box-shadow: inset 0px -15px 15px 0px rgba(0, 0, 0, 0.10);
+		box-shadow: inset 0px -15px 15px 0px rgba(0, 0, 0, 0.10);	
+	}
+	
+	#comments .commentlist > li .reply a:hover.comment-reply-link {
+		-webkit-box-shadow: inset 0px -15px 15px 0px rgba(0, 0, 0, 0.15);
+		box-shadow: inset 0px -15px 15px 0px rgba(0, 0, 0, 0.15);
+	}
+
+	button, input[type="submit"], input[type="reset"], input[type="button"] {
+		border-width: 0px;
+		border-style: solid;
+		display: inline-block;
+		padding: 9px 21px;
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 15px;
+		text-decoration: none;
+		cursor: pointer;
+		overflow: visible;
+		background-image: url(../images/bg_button.png);
+		background-repeat: repeat-x;
+		background-position: left top;
+	 }
+	 
+	button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+	}
+	 
+	 /* #Control Button
+	================================================== */
+	a.control_button, span.control_button { display: block; float: left; margin: 0 2px; overflow: hidden; background: #ccc; -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px; border-width: 1px; border-style: solid; }
+	a.control_button span, span.control_button span { display: block; width: 22px; height: 22px; overflow: hidden; text-indent: -9999px; }
+
+
+
+	.button.full-width, button.full-width, input[type="submit"].full-width,
+	input[type="reset"].full-width, input[type="button"].full-width {
+		width: 100%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		text-align: center; }
+
+	/* Fix for odd Mozilla border & padding issues */
+	button::-moz-focus-inner, input::-moz-focus-inner {
+    	border: 0;
+    	padding: 0;
+	}
+
+
+/* #Forms
+================================================== */
+
+	form {
+		margin-bottom: 0;
+	}
+	
+	fieldset {
+		margin-bottom: 0;
+	}
+		
+	input[type="text"], input[type="password"], input[type="email"], textarea, select {
+		padding: 10px;
+		outline: none;
+		margin: 0;
+		width: 230px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		font-size: 13px;
+	}
+
+	input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {}
+		
+	textarea {
+		min-height: 60px;
+	}
+	
+	label, legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;
+	}
+	
+	input[type="checkbox"] {
+		display: inline;
+	}
+
+/* #Misc
+================================================== */
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+	

@@ -1,0 +1,115 @@
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/**** miscelous ****/
+#mfn-offer-slider .rslides_nav {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+/**** featured box CSS3 transitions ****/
+
+/* moveFromLeft */
+@-webkit-keyframes moveFromLeft{
+    from	{ -webkit-transform: translateX(-100%);}
+    to		{ -webkit-transform: translateX(0%);}
+}
+@-moz-keyframes moveFromLeft{
+    from	{ -moz-transform: translateX(-100%);}
+    to		{ -moz-transform: translateX(0%);}
+}
+@-ms-keyframes moveFromLeft{
+    from	{ -ms-transform: translateX(-100%);}
+    to		{ -ms-transform: translateX(0%);}
+}
+@-o-keyframes moveFromLeft{
+    from	{ -o-transform: translateX(-100%);}
+    to		{ -o-transform: translateX(0%);}
+}
+@keyframes moveFromLeft{
+    from	{ transform: translateX(-100%);}
+    to		{ transform: translateX(0%);}
+}
+
+/* moveFromRight */
+@-webkit-keyframes moveFromRight {
+	from	{ -webkit-transform: translateX(100%);}
+    to		{ -webkit-transform: translateX(0%);}
+}
+@-moz-keyframes moveFromRight {
+	from	{ -moz-transform: translateX(100%);}
+    to		{ -moz-transform: translateX(0%);}
+}
+@-ms-keyframes moveFromRight {
+	from	{ -ms-transform: translateX(100%);}
+    to		{ -ms-transform: translateX(0%);}
+}
+@-o-keyframes moveFromRight {
+	from	{ -o-transform: translateX(100%);}
+    to		{ -o-transform: translateX(0%);}
+}
+@keyframes moveFromRight {
+	from	{ transform: translateX(100%);}
+    to		{ transform: translateX(0%);}
+}
+
+/* moveFromBottom */
+@-webkit-keyframes moveFromBottom {
+    from	{ -webkit-transform: translateY(100%);}
+    to		{ -webkit-transform: translateY(0%);}
+}
+@-moz-keyframes moveFromBottom {
+    from	{ -moz-transform: translateY(100%);}
+    to		{ -moz-transform: translateY(0%);}
+}
+@-ms-keyframes moveFromBottom {
+    from	{ -ms-transform: translateY(100%);}
+    to		{ -ms-transform: translateY(0%);}
+}
+@-o-keyframes moveFromBottom {
+    from	{ -o-transform: translateY(100%);}
+    to		{ -o-transform: translateY(0%);}
+}
+@keyframes moveFromBottom {
+    from	{ transform: translateY(100%);}
+    to		{ transform: translateY(0%);}
+}

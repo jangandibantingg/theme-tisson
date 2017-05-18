@@ -1,0 +1,87 @@
+/* #Base 1200 Grid
+================================================== */
+
+body					{ min-width: 1200px;}
+
+.container				{ position: relative; width: 1200px; margin: 0 auto; padding: 0; }
+.container .column,
+.container .columns		{ float: left; display: inline; }
+.row					{ margin-bottom: 20px; }
+
+
+/* Base Grid */
+.container .four.columns,
+.container .one-fourth.column		{ width: 300px; }	/* 1/4 */
+.container .one-third.column		{ width: 400px; }	/* 1/3 */
+.container .one-second.column		{ width: 600px; }	/* 1/2 */
+.container .two-third.column		{ width: 800px; }	/* 2/3 */
+.container .three-fourth.column		{ width: 900px; }	/* 3/4 */
+.container .sixteen.columns,
+.container .one.column				{ width: 1200px; }	/* 1/1 */
+
+
+/* .content-padding */
+.container .content-padding .one-fourth.column		{ width: 25% !important; }		/* 1/4 */
+.container .content-padding .one-third.column		{ width: 33.33%  !important; }	/* 1/3 */
+.container .content-padding .one-second.column		{ width: 50%  !important; }		/* 1/2 */
+.container .content-padding .two-third.column		{ width: 66.66%  !important; }	/* 2/3 */
+.container .content-padding .three-fourth.column	{ width: 75%  !important; }		/* 3/4 */
+.container .content-padding .sixteen.columns,
+.container .content-padding .one.column				{ width: 100%  !important; }	/* 1/1 */
+
+
+/* .with_aside */
+.with_aside #Content .container .one-fourth.column		{ width: 225px; }
+.with_aside #Content .container .one-third.column		{ width: 300px; }
+.with_aside #Content .container .one-second.column		{ width: 450px; }
+.with_aside #Content .container .two-third.column		{ width: 600px; }
+.with_aside #Content .container .three-fourth.column	{ width: 675px; }
+
+.with_aside #Content .container .sixteen.columns, .with_aside #Content .container .one.column	{ width: 900px; }
+
+
+/* .the_content */	
+.container .the_content .one.column				{ width: 98% !important; margin-right: 2% !important; margin-left: 0 !important; }
+
+.container .the_content .one-second.column		{ width: 48% !important; margin-right: 2% !important; margin-left: 0 !important; }
+
+.container .the_content .one-third.column		{ width: 31.33% !important; margin-right: 2% !important; margin-left: 0 !important; }
+.container .the_content .two-third.column		{ width: 64.66% !important; margin-right: 2% !important; margin-left: 0 !important; }
+
+.container .the_content .one-fourth.column		{ width: 23% !important; margin-right: 2% !important; margin-left: 0 !important; }
+.container .the_content .two-fourth.column		{ width: 48% !important; margin-right: 2% !important; margin-left: 0 !important; }
+.container .the_content .three-fourth.column	{ width: 73% !important; margin-right: 2% !important; margin-left: 0 !important; }
+
+/* #Clearing
+================================================== */
+
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns, or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0; }
+.row:after,
+.clearfix:after {
+	clear: both; }
+.row,
+.clearfix {
+	zoom: 1; }
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}

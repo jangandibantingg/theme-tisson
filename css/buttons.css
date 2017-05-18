@@ -1,0 +1,76 @@
+/* Button red */
+a.button.button_red, a.tp-button.red {
+	background-color: #FC2A2A;
+	color: #fff;
+}
+a:hover.button.button_red, a:hover.tp-button.red {
+	background-color: #E31212;
+	color:#fff;
+}
+
+/* Button orange */
+
+a.button.button_orange, a.tp-button.orange {
+	background-color: #FF6E00;
+	color: #fff;
+}
+a:hover.button.button_orange, a:hover.tp-button.orange {
+	background-color: #FF5500;
+	color:#fff;
+}
+
+/* Button green */
+
+a.button.button_green, a.tp-button.green {
+	background-color: #1BB852;
+	color: #fff;
+}
+
+a:hover.button.button_green, a:hover.tp-button.green {
+	background-color: #02AE3F;
+	color:#fff;
+}
+
+/* Button blue */
+
+a.button.button_blue, a.tp-button.blue {
+	background-color: #058BD3;
+	color: #fff;
+}
+a:hover.button.button_blue, a:hover.tp-button.blue {
+	background-color: #0375B3;
+	color:#fff;
+}
+
+/* Button seagreen */
+
+a.button.button_yellow {
+	background-color: #FFCC28;
+	color: #885a29;
+}
+a:hover.button.button_yellow {
+	background-color: #FFC200;
+	color:#885a29;
+}
+
+/* Button darkgrey */
+
+a.tp-button.darkgrey {
+	background-color: #555555;
+	color: #fff;
+}
+a:hover.tp-button.darkgrey {
+	background-color: #4c4c4c;
+	color:#fff;
+}
+
+/* Button lightgrey */
+
+a.tp-button.lightgrey {
+	background-color: #878787;
+	color: #fff;
+}
+a:hover.tp-button.lightgrey {
+	background-color: #7f7f7f;
+	color:#fff;
+}
